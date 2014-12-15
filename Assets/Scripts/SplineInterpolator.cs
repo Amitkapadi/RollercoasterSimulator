@@ -183,7 +183,7 @@ public class SplineInterpolator : MonoBehaviour
 
 			if (mRotations)
 			{
-				transform.rotation = GetSquad(mCurrentIdx, param);
+			transform.rotation = GetSquad(mCurrentIdx, param);
 			}
 		}
 	}
